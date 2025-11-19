@@ -26,6 +26,15 @@ namespace PixelArtGenerator.Services
         Task<ProcessingResult> ProcessImageWithResultAsync(Bitmap source, PixelArtOptions options, IProgress<int> progress = null);
         
         /// <summary>
+        /// 通过管道方式处理单个图片并返回详细的处理结果
+        /// </summary>
+        /// <param name="source">源图片</param>
+        /// <param name="options">处理选项</param>
+        /// <param name="progress">进度报告</param>
+        /// <returns>处理结果</returns>
+        Task<ProcessingResult> ProcessImageViaPipeAsync(Bitmap source, PixelArtOptions options, IProgress<int> progress = null);
+        
+        /// <summary>
         /// 批量处理多个图片
         /// </summary>
         /// <param name="sources">源图片数组</param>

@@ -38,17 +38,69 @@ namespace PixelArtGenerator
         {
             HandleException(e.Exception, "UI线程异常");
             e.Handled = true;
+            
+            // 强制写入桌面日志文件，确保能捕获任何异常
+            try
+            {
+                var desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+                var logPath = Path.Combine(desktopPath, $"fatal_{DateTime.Now:yyyyMMdd_HHmmss}.log");
+                var logContent = e.Exception.ToString();
+                File.WriteAllText(logPath, logContent);
+                MessageBox.Show($"致命错误，日志已写到桌面：{logPath}", "致命错误",
+                    MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+            catch
+            {
+                // 即使写日志失败，也要确保程序退出
+            }
+            
+            Environment.Exit(1); // 强制退出，避免卡死
         }
 
         private void OnUnobservedTaskException(object sender, System.Threading.Tasks.UnobservedTaskExceptionEventArgs e)
         {
             HandleException(e.Exception, "任务异常");
             e.SetObserved();
+            
+            // 强制写入桌面日志文件，确保能捕获任何异常
+            try
+            {
+                var desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+                var logPath = Path.Combine(desktopPath, $"fatal_{DateTime.Now:yyyyMMdd_HHmmss}.log");
+                var logContent = e.Exception.ToString();
+                File.WriteAllText(logPath, logContent);
+                MessageBox.Show($"致命错误，日志已写到桌面：{logPath}", "致命错误",
+                    MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+            catch
+            {
+                // 即使写日志失败，也要确保程序退出
+            }
+            
+            Environment.Exit(1); // 强制退出，避免卡死
         }
 
         private void OnUnhandledException(object sender, UnhandledExceptionEventArgs e)
         {
             HandleException(e.ExceptionObject as Exception, "应用程序异常");
+            
+            // 强制写入桌面日志文件，确保能捕获任何异常
+            try
+            {
+                var desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+                var logPath = Path.Combine(desktopPath, $"fatal_{DateTime.Now:yyyyMMdd_HHmmss}.log");
+                var exception = e.ExceptionObject as Exception;
+                var logContent = exception?.ToString() ?? "Unknown exception occurred";
+                File.WriteAllText(logPath, logContent);
+                MessageBox.Show($"致命错误，日志已写到桌面：{logPath}", "致命错误",
+                    MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+            catch
+            {
+                // 即使写日志失败，也要确保程序退出
+            }
+            
+            Environment.Exit(1); // 强制退出，避免卡死
         }
 
         private void HandleException(Exception exception, string context)

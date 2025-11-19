@@ -3,6 +3,7 @@ using System.Drawing;
 using System.Drawing.Imaging;
 using System.IO;
 using System.Linq;
+using System.Net.Http;
 using System.Threading.Tasks;
 using System.Windows.Media.Imaging;
 
@@ -16,11 +17,13 @@ namespace PixelArtGenerator.Services
         void SaveBitmap(Bitmap bitmap, string filePath);
         string[] GetSupportedFormats();
         bool IsSupportedFormat(string filePath);
+        Task<BitmapSource> DownloadImageAsync(string url);
     }
 
     public class FileService : IFileService
     {
         private static readonly object _lockObject = new object();
+        private static readonly HttpClient _httpClient = new HttpClient();
 
         public string[] GetSupportedFormats()
         {
@@ -70,6 +73,33 @@ namespace PixelArtGenerator.Services
                     throw new InvalidOperationException($"加载图片失败: {ex.Message}", ex);
                 }
             });
+        }
+
+        public async Task<BitmapSource> DownloadImageAsync(string url)
+        {
+            if (string.IsNullOrEmpty(url))
+                throw new ArgumentNullException(nameof(url));
+
+            try
+            {
+                // 下载图片数据
+                var imageData = await _httpClient.GetByteArrayAsync(url);
+                
+                using (var memoryStream = new MemoryStream(imageData))
+                {
+                    var bitmapImage = new BitmapImage();
+                    bitmapImage.BeginInit();
+                    bitmapImage.CacheOption = BitmapCacheOption.OnLoad;
+                    bitmapImage.StreamSource = memoryStream;
+                    bitmapImage.EndInit();
+                    bitmapImage.Freeze();
+                    return bitmapImage;
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new InvalidOperationException($"下载图片失败: {ex.Message}", ex);
+            }
         }
 
         public void SaveImage(BitmapSource image, string filePath)

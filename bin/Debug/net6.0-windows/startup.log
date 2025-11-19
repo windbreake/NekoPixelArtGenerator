@@ -1,0 +1,385 @@
+2025-11-18 16:57:39.895: [STARTUP] MainWindow constructor starting
+2025-11-18 16:58:15.507: [STARTUP] MainWindow constructor starting
+2025-11-18 16:59:18.921: [STARTUP] MainWindow constructor starting
+2025-11-18 17:03:18.124: [STARTUP] MainWindow constructor starting
+2025-11-18 17:05:36.051: [STARTUP] MainWindow constructor starting
+2025-11-18 17:07:27.618: [STARTUP] MainWindow constructor starting
+2025-11-18 17:11:20.162: [STARTUP] MainWindow constructor starting
+2025-11-18 17:17:35.720: [STARTUP] MainWindow constructor starting
+2025-11-18 17:19:42.273: [STARTUP] MainWindow constructor starting
+2025-11-18 17:19:42.459: [STARTUP] InitializeComponent completed
+2025-11-18 17:19:42.550: [STARTUP] MainWindow constructor completed successfully
+2025-11-18 17:19:42.864: [GENERAL] UpdatePreview called
+2025-11-18 17:19:42.864: [GENERAL] UpdatePreview skipped - _originalImage: False, _isProcessing: False
+2025-11-18 17:19:42.865: [GENERAL] UpdatePreview called
+2025-11-18 17:19:42.865: [GENERAL] UpdatePreview skipped - _originalImage: False, _isProcessing: False
+2025-11-18 17:19:42.866: [GENERAL] UpdatePreview called
+2025-11-18 17:19:42.867: [GENERAL] UpdatePreview skipped - _originalImage: False, _isProcessing: False
+2025-11-18 17:19:42.867: [GENERAL] UpdatePreview called
+2025-11-18 17:19:42.867: [GENERAL] UpdatePreview skipped - _originalImage: False, _isProcessing: False
+2025-11-18 17:20:07.361: [GENERAL] UpdatePreview called
+2025-11-18 17:20:07.362: [GENERAL] UpdatePreview skipped - _originalImage: False, _isProcessing: False
+2025-11-18 17:20:07.362: [GENERAL] UpdatePreview called
+2025-11-18 17:20:07.362: [GENERAL] UpdatePreview skipped - _originalImage: False, _isProcessing: False
+2025-11-18 17:20:07.775: [GENERAL] UpdatePreview called
+2025-11-18 17:20:07.775: [GENERAL] UpdatePreview skipped - _originalImage: False, _isProcessing: False
+2025-11-18 17:20:07.775: [GENERAL] UpdatePreview called
+2025-11-18 17:20:07.776: [GENERAL] UpdatePreview skipped - _originalImage: False, _isProcessing: False
+2025-11-18 17:20:45.458: [STARTUP] MainWindow constructor starting
+2025-11-18 17:20:45.624: [STARTUP] InitializeComponent completed
+2025-11-18 17:20:45.712: [STARTUP] MainWindow constructor completed successfully
+2025-11-18 17:20:45.979: [GENERAL] UpdatePreview called
+2025-11-18 17:20:45.980: [GENERAL] UpdatePreview skipped - _originalImage: False, _isProcessing: False
+2025-11-18 17:20:45.980: [GENERAL] UpdatePreview called
+2025-11-18 17:20:45.980: [GENERAL] UpdatePreview skipped - _originalImage: False, _isProcessing: False
+2025-11-18 17:20:45.982: [GENERAL] UpdatePreview called
+2025-11-18 17:20:45.982: [GENERAL] UpdatePreview skipped - _originalImage: False, _isProcessing: False
+2025-11-18 17:20:45.982: [GENERAL] UpdatePreview called
+2025-11-18 17:20:45.982: [GENERAL] UpdatePreview skipped - _originalImage: False, _isProcessing: False
+2025-11-18 17:25:19.507: [STARTUP] MainWindow constructor starting
+2025-11-18 17:25:19.855: [STARTUP] InitializeComponent completed
+2025-11-18 17:25:20.009: [STARTUP] MainWindow constructor completed successfully
+2025-11-18 17:25:20.509: [GENERAL] UpdatePreview called
+2025-11-18 17:25:20.509: [GENERAL] UpdatePreview skipped - _originalImage: False, _isProcessing: False
+2025-11-18 17:25:20.510: [GENERAL] UpdatePreview called
+2025-11-18 17:25:20.510: [GENERAL] UpdatePreview skipped - _originalImage: False, _isProcessing: False
+2025-11-18 17:25:20.513: [GENERAL] UpdatePreview called
+2025-11-18 17:25:20.513: [GENERAL] UpdatePreview skipped - _originalImage: False, _isProcessing: False
+2025-11-18 17:25:20.514: [GENERAL] UpdatePreview called
+2025-11-18 17:25:20.514: [GENERAL] UpdatePreview skipped - _originalImage: False, _isProcessing: False
+2025-11-18 17:25:31.395: [GENERAL] UpdatePreview called
+2025-11-18 17:25:31.395: [GENERAL] UpdatePreview skipped - _originalImage: False, _isProcessing: False
+2025-11-18 17:25:31.396: [GENERAL] UpdatePreview called
+2025-11-18 17:25:31.396: [GENERAL] UpdatePreview skipped - _originalImage: False, _isProcessing: False
+2025-11-18 17:25:32.007: [GENERAL] UpdatePreview called
+2025-11-18 17:25:32.007: [GENERAL] UpdatePreview skipped - _originalImage: False, _isProcessing: False
+2025-11-18 17:25:32.007: [GENERAL] UpdatePreview called
+2025-11-18 17:25:32.008: [GENERAL] UpdatePreview skipped - _originalImage: False, _isProcessing: False
+2025-11-19 00:00:39.325: [STARTUP] MainWindow constructor starting
+2025-11-19 00:00:39.510: [STARTUP] InitializeComponent completed
+2025-11-19 00:00:39.626: [STARTUP] MainWindow constructor completed successfully
+2025-11-19 00:00:39.913: [GENERAL] UpdatePreview called
+2025-11-19 00:00:39.913: [GENERAL] UpdatePreview skipped - _originalImage: False, _isProcessing: False
+2025-11-19 00:00:39.913: [GENERAL] UpdatePreview called
+2025-11-19 00:00:39.914: [GENERAL] UpdatePreview skipped - _originalImage: False, _isProcessing: False
+2025-11-19 00:00:39.916: [GENERAL] UpdatePreview called
+2025-11-19 00:00:39.916: [GENERAL] UpdatePreview skipped - _originalImage: False, _isProcessing: False
+2025-11-19 00:00:39.916: [GENERAL] UpdatePreview called
+2025-11-19 00:00:39.916: [GENERAL] UpdatePreview skipped - _originalImage: False, _isProcessing: False
+2025-11-19 00:00:44.997: [GENERAL] ProcessImageAsync started
+2025-11-19 00:00:44.997: [GENERAL] ProcessImageAsync initialized UI
+2025-11-19 00:00:45.066: [GENERAL] ProcessImageAsync converted bitmap
+2025-11-19 00:00:45.067: [GENERAL] ProcessImageAsync using pipe mode
+2025-11-19 00:00:49.004: [GENERAL] ProcessImageAsync got result - Success: True
+2025-11-19 00:00:49.021: [GENERAL] ProcessImageAsync updated UI with processed image
+2025-11-19 00:00:49.022: [GENERAL] ProcessImageAsync finished
+2025-11-19 00:00:49.754: [GENERAL] UpdatePreview called
+2025-11-19 00:00:49.755: [GENERAL] UpdatePreview passed initial checks
+2025-11-19 00:00:49.755: [GENERAL] UpdatePreview set _previewUpdateInProgress to true
+2025-11-19 00:00:49.755: [GENERAL] UpdatePreview calling ProcessImageAsync
+2025-11-19 00:00:49.756: [GENERAL] ProcessImageAsync started
+2025-11-19 00:00:49.756: [GENERAL] ProcessImageAsync initialized UI
+2025-11-19 00:00:49.808: [GENERAL] ProcessImageAsync converted bitmap
+2025-11-19 00:00:49.809: [GENERAL] ProcessImageAsync using pipe mode
+2025-11-19 00:00:49.853: [GENERAL] UpdatePreview called
+2025-11-19 00:00:49.853: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:49.855: [GENERAL] UpdatePreview called
+2025-11-19 00:00:49.855: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:49.855: [GENERAL] UpdatePreview called
+2025-11-19 00:00:49.856: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:49.917: [GENERAL] UpdatePreview called
+2025-11-19 00:00:49.918: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:49.918: [GENERAL] UpdatePreview called
+2025-11-19 00:00:49.918: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:49.927: [GENERAL] UpdatePreview called
+2025-11-19 00:00:49.927: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:49.927: [GENERAL] UpdatePreview called
+2025-11-19 00:00:49.928: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:51.972: [GENERAL] UpdatePreview called
+2025-11-19 00:00:51.973: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:51.973: [GENERAL] UpdatePreview called
+2025-11-19 00:00:51.974: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:51.978: [GENERAL] UpdatePreview called
+2025-11-19 00:00:51.978: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:51.979: [GENERAL] UpdatePreview called
+2025-11-19 00:00:51.979: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:51.984: [GENERAL] UpdatePreview called
+2025-11-19 00:00:51.984: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:51.985: [GENERAL] UpdatePreview called
+2025-11-19 00:00:51.985: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:51.990: [GENERAL] UpdatePreview called
+2025-11-19 00:00:51.990: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:51.991: [GENERAL] UpdatePreview called
+2025-11-19 00:00:51.991: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:51.993: [GENERAL] UpdatePreview called
+2025-11-19 00:00:51.993: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:51.993: [GENERAL] UpdatePreview called
+2025-11-19 00:00:51.994: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:52.000: [GENERAL] UpdatePreview called
+2025-11-19 00:00:52.000: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:52.001: [GENERAL] UpdatePreview called
+2025-11-19 00:00:52.001: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:52.006: [GENERAL] UpdatePreview called
+2025-11-19 00:00:52.006: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:52.007: [GENERAL] UpdatePreview called
+2025-11-19 00:00:52.007: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:52.014: [GENERAL] UpdatePreview called
+2025-11-19 00:00:52.014: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:52.015: [GENERAL] UpdatePreview called
+2025-11-19 00:00:52.015: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:52.018: [GENERAL] UpdatePreview called
+2025-11-19 00:00:52.018: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:52.018: [GENERAL] UpdatePreview called
+2025-11-19 00:00:52.018: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:52.028: [GENERAL] UpdatePreview called
+2025-11-19 00:00:52.029: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:52.029: [GENERAL] UpdatePreview called
+2025-11-19 00:00:52.029: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:52.040: [GENERAL] UpdatePreview called
+2025-11-19 00:00:52.040: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:52.040: [GENERAL] UpdatePreview called
+2025-11-19 00:00:52.040: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:52.048: [GENERAL] UpdatePreview called
+2025-11-19 00:00:52.049: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:52.049: [GENERAL] UpdatePreview called
+2025-11-19 00:00:52.049: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:52.051: [GENERAL] UpdatePreview called
+2025-11-19 00:00:52.051: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:52.051: [GENERAL] UpdatePreview called
+2025-11-19 00:00:52.052: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:52.060: [GENERAL] UpdatePreview called
+2025-11-19 00:00:52.060: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:52.060: [GENERAL] UpdatePreview called
+2025-11-19 00:00:52.061: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:52.066: [GENERAL] UpdatePreview called
+2025-11-19 00:00:52.066: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:52.067: [GENERAL] UpdatePreview called
+2025-11-19 00:00:52.067: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:52.077: [GENERAL] UpdatePreview called
+2025-11-19 00:00:52.077: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:52.077: [GENERAL] UpdatePreview called
+2025-11-19 00:00:52.078: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:52.083: [GENERAL] UpdatePreview called
+2025-11-19 00:00:52.084: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:52.084: [GENERAL] UpdatePreview called
+2025-11-19 00:00:52.084: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:52.104: [GENERAL] UpdatePreview called
+2025-11-19 00:00:52.105: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:52.105: [GENERAL] UpdatePreview called
+2025-11-19 00:00:52.105: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:52.735: [GENERAL] ProcessImageAsync got result - Success: True
+2025-11-19 00:00:52.758: [GENERAL] ProcessImageAsync updated UI with processed image
+2025-11-19 00:00:52.759: [GENERAL] ProcessImageAsync finished
+2025-11-19 00:00:52.760: [GENERAL] UpdatePreview reset _previewUpdateInProgress to false
+2025-11-19 00:00:52.964: [GENERAL] UpdatePreview called
+2025-11-19 00:00:52.964: [GENERAL] UpdatePreview passed initial checks
+2025-11-19 00:00:52.964: [GENERAL] UpdatePreview set _previewUpdateInProgress to true
+2025-11-19 00:00:52.965: [GENERAL] UpdatePreview calling ProcessImageAsync
+2025-11-19 00:00:52.965: [GENERAL] ProcessImageAsync started
+2025-11-19 00:00:52.965: [GENERAL] ProcessImageAsync initialized UI
+2025-11-19 00:00:53.019: [GENERAL] ProcessImageAsync converted bitmap
+2025-11-19 00:00:53.019: [GENERAL] ProcessImageAsync using pipe mode
+2025-11-19 00:00:53.065: [GENERAL] UpdatePreview called
+2025-11-19 00:00:53.065: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:53.067: [GENERAL] UpdatePreview called
+2025-11-19 00:00:53.068: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:53.068: [GENERAL] UpdatePreview called
+2025-11-19 00:00:53.068: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:53.075: [GENERAL] UpdatePreview called
+2025-11-19 00:00:53.075: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:53.076: [GENERAL] UpdatePreview called
+2025-11-19 00:00:53.076: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:53.096: [GENERAL] UpdatePreview called
+2025-11-19 00:00:53.096: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:53.097: [GENERAL] UpdatePreview called
+2025-11-19 00:00:53.097: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:53.109: [GENERAL] UpdatePreview called
+2025-11-19 00:00:53.109: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:53.110: [GENERAL] UpdatePreview called
+2025-11-19 00:00:53.110: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:53.124: [GENERAL] UpdatePreview called
+2025-11-19 00:00:53.125: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:53.125: [GENERAL] UpdatePreview called
+2025-11-19 00:00:53.125: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:53.140: [GENERAL] UpdatePreview called
+2025-11-19 00:00:53.141: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:53.141: [GENERAL] UpdatePreview called
+2025-11-19 00:00:53.141: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:53.155: [GENERAL] UpdatePreview called
+2025-11-19 00:00:53.156: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:53.156: [GENERAL] UpdatePreview called
+2025-11-19 00:00:53.156: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:53.159: [GENERAL] UpdatePreview called
+2025-11-19 00:00:53.160: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:53.160: [GENERAL] UpdatePreview called
+2025-11-19 00:00:53.160: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:53.172: [GENERAL] UpdatePreview called
+2025-11-19 00:00:53.172: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:53.172: [GENERAL] UpdatePreview called
+2025-11-19 00:00:53.173: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:53.185: [GENERAL] UpdatePreview called
+2025-11-19 00:00:53.185: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:53.185: [GENERAL] UpdatePreview called
+2025-11-19 00:00:53.186: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:53.197: [GENERAL] UpdatePreview called
+2025-11-19 00:00:53.198: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:53.198: [GENERAL] UpdatePreview called
+2025-11-19 00:00:53.198: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:53.206: [GENERAL] UpdatePreview called
+2025-11-19 00:00:53.207: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:53.207: [GENERAL] UpdatePreview called
+2025-11-19 00:00:53.207: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:53.321: [GENERAL] UpdatePreview called
+2025-11-19 00:00:53.321: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:53.322: [GENERAL] UpdatePreview called
+2025-11-19 00:00:53.322: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:53.406: [GENERAL] UpdatePreview called
+2025-11-19 00:00:53.407: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:53.407: [GENERAL] UpdatePreview called
+2025-11-19 00:00:53.407: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:55.968: [GENERAL] ProcessImageAsync got result - Success: True
+2025-11-19 00:00:55.988: [GENERAL] ProcessImageAsync updated UI with processed image
+2025-11-19 00:00:55.988: [GENERAL] ProcessImageAsync finished
+2025-11-19 00:00:55.989: [GENERAL] UpdatePreview reset _previewUpdateInProgress to false
+2025-11-19 00:00:57.084: [GENERAL] UpdatePreview called
+2025-11-19 00:00:57.085: [GENERAL] UpdatePreview passed initial checks
+2025-11-19 00:00:57.085: [GENERAL] UpdatePreview set _previewUpdateInProgress to true
+2025-11-19 00:00:57.085: [GENERAL] UpdatePreview calling ProcessImageAsync
+2025-11-19 00:00:57.085: [GENERAL] ProcessImageAsync started
+2025-11-19 00:00:57.086: [GENERAL] ProcessImageAsync initialized UI
+2025-11-19 00:00:57.137: [GENERAL] ProcessImageAsync converted bitmap
+2025-11-19 00:00:57.138: [GENERAL] ProcessImageAsync using pipe mode
+2025-11-19 00:00:57.183: [GENERAL] UpdatePreview called
+2025-11-19 00:00:57.183: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:57.185: [GENERAL] UpdatePreview called
+2025-11-19 00:00:57.186: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:57.186: [GENERAL] UpdatePreview called
+2025-11-19 00:00:57.186: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:57.190: [GENERAL] UpdatePreview called
+2025-11-19 00:00:57.191: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:00:57.191: [GENERAL] UpdatePreview called
+2025-11-19 00:00:57.191: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:01:00.042: [GENERAL] ProcessImageAsync got result - Success: True
+2025-11-19 00:01:00.067: [GENERAL] ProcessImageAsync updated UI with processed image
+2025-11-19 00:01:00.068: [GENERAL] ProcessImageAsync finished
+2025-11-19 00:01:00.068: [GENERAL] UpdatePreview reset _previewUpdateInProgress to false
+2025-11-19 00:01:04.635: [GENERAL] UpdatePreview called
+2025-11-19 00:01:04.635: [GENERAL] UpdatePreview passed initial checks
+2025-11-19 00:01:04.635: [GENERAL] UpdatePreview set _previewUpdateInProgress to true
+2025-11-19 00:01:04.636: [GENERAL] UpdatePreview calling ProcessImageAsync
+2025-11-19 00:01:04.636: [GENERAL] ProcessImageAsync started
+2025-11-19 00:01:04.636: [GENERAL] ProcessImageAsync initialized UI
+2025-11-19 00:01:04.686: [GENERAL] ProcessImageAsync converted bitmap
+2025-11-19 00:01:04.686: [GENERAL] ProcessImageAsync using pipe mode
+2025-11-19 00:01:04.729: [GENERAL] UpdatePreview called
+2025-11-19 00:01:04.729: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:01:04.730: [GENERAL] UpdatePreview called
+2025-11-19 00:01:04.731: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:01:04.731: [GENERAL] UpdatePreview called
+2025-11-19 00:01:04.731: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:01:04.789: [GENERAL] UpdatePreview called
+2025-11-19 00:01:04.790: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:01:04.790: [GENERAL] UpdatePreview called
+2025-11-19 00:01:04.790: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:01:04.805: [GENERAL] UpdatePreview called
+2025-11-19 00:01:04.806: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:01:04.806: [GENERAL] UpdatePreview called
+2025-11-19 00:01:04.806: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:01:04.818: [GENERAL] UpdatePreview called
+2025-11-19 00:01:04.819: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:01:04.819: [GENERAL] UpdatePreview called
+2025-11-19 00:01:04.819: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:01:04.827: [GENERAL] UpdatePreview called
+2025-11-19 00:01:04.828: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:01:04.828: [GENERAL] UpdatePreview called
+2025-11-19 00:01:04.828: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:01:04.904: [GENERAL] UpdatePreview called
+2025-11-19 00:01:04.904: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:01:04.905: [GENERAL] UpdatePreview called
+2025-11-19 00:01:04.905: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:01:04.921: [GENERAL] UpdatePreview called
+2025-11-19 00:01:04.921: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:01:04.922: [GENERAL] UpdatePreview called
+2025-11-19 00:01:04.922: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:01:07.587: [GENERAL] ProcessImageAsync got result - Success: True
+2025-11-19 00:01:07.608: [GENERAL] ProcessImageAsync updated UI with processed image
+2025-11-19 00:01:07.608: [GENERAL] ProcessImageAsync finished
+2025-11-19 00:01:07.610: [GENERAL] UpdatePreview reset _previewUpdateInProgress to false
+2025-11-19 00:01:11.180: [GENERAL] UpdatePreview called
+2025-11-19 00:01:11.180: [GENERAL] UpdatePreview passed initial checks
+2025-11-19 00:01:11.180: [GENERAL] UpdatePreview set _previewUpdateInProgress to true
+2025-11-19 00:01:11.181: [GENERAL] UpdatePreview calling ProcessImageAsync
+2025-11-19 00:01:11.181: [GENERAL] ProcessImageAsync started
+2025-11-19 00:01:11.181: [GENERAL] ProcessImageAsync initialized UI
+2025-11-19 00:01:11.234: [GENERAL] ProcessImageAsync converted bitmap
+2025-11-19 00:01:11.234: [GENERAL] ProcessImageAsync using pipe mode
+2025-11-19 00:01:11.275: [GENERAL] UpdatePreview called
+2025-11-19 00:01:11.275: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:01:13.222: [GENERAL] UpdatePreview called
+2025-11-19 00:01:13.223: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:01:13.223: [GENERAL] UpdatePreview called
+2025-11-19 00:01:13.223: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:01:14.051: [GENERAL] ProcessImageAsync got result - Success: True
+2025-11-19 00:01:14.073: [GENERAL] ProcessImageAsync updated UI with processed image
+2025-11-19 00:01:14.074: [GENERAL] ProcessImageAsync finished
+2025-11-19 00:01:14.074: [GENERAL] UpdatePreview reset _previewUpdateInProgress to false
+2025-11-19 00:01:18.481: [GENERAL] ProcessImageAsync started
+2025-11-19 00:01:18.482: [GENERAL] ProcessImageAsync initialized UI
+2025-11-19 00:01:18.535: [GENERAL] ProcessImageAsync converted bitmap
+2025-11-19 00:01:18.535: [GENERAL] ProcessImageAsync using pipe mode
+2025-11-19 00:01:21.307: [GENERAL] ProcessImageAsync got result - Success: True
+2025-11-19 00:01:21.322: [GENERAL] ProcessImageAsync updated UI with processed image
+2025-11-19 00:01:21.323: [GENERAL] ProcessImageAsync finished
+2025-11-19 00:01:24.299: [GENERAL] UpdatePreview called
+2025-11-19 00:01:24.299: [GENERAL] UpdatePreview passed initial checks
+2025-11-19 00:01:24.300: [GENERAL] UpdatePreview set _previewUpdateInProgress to true
+2025-11-19 00:01:24.300: [GENERAL] UpdatePreview calling ProcessImageAsync
+2025-11-19 00:01:24.300: [GENERAL] ProcessImageAsync started
+2025-11-19 00:01:24.301: [GENERAL] ProcessImageAsync initialized UI
+2025-11-19 00:01:24.355: [GENERAL] ProcessImageAsync converted bitmap
+2025-11-19 00:01:24.356: [GENERAL] ProcessImageAsync using pipe mode
+2025-11-19 00:01:24.400: [GENERAL] UpdatePreview called
+2025-11-19 00:01:24.400: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:01:25.774: [GENERAL] UpdatePreview called
+2025-11-19 00:01:25.774: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:01:25.774: [GENERAL] UpdatePreview called
+2025-11-19 00:01:25.775: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:01:29.644: [GENERAL] ProcessImageAsync got result - Success: True
+2025-11-19 00:01:29.659: [GENERAL] ProcessImageAsync updated UI with processed image
+2025-11-19 00:01:29.660: [GENERAL] ProcessImageAsync finished
+2025-11-19 00:01:29.660: [GENERAL] UpdatePreview reset _previewUpdateInProgress to false
+2025-11-19 00:01:34.569: [GENERAL] UpdatePreview called
+2025-11-19 00:01:34.569: [GENERAL] UpdatePreview passed initial checks
+2025-11-19 00:01:34.570: [GENERAL] UpdatePreview set _previewUpdateInProgress to true
+2025-11-19 00:01:34.570: [GENERAL] UpdatePreview calling ProcessImageAsync
+2025-11-19 00:01:34.570: [GENERAL] ProcessImageAsync started
+2025-11-19 00:01:34.571: [GENERAL] ProcessImageAsync initialized UI
+2025-11-19 00:01:34.617: [GENERAL] ProcessImageAsync converted bitmap
+2025-11-19 00:01:34.618: [GENERAL] ProcessImageAsync using pipe mode
+2025-11-19 00:01:34.657: [GENERAL] UpdatePreview called
+2025-11-19 00:01:34.657: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:01:34.658: [GENERAL] UpdatePreview called
+2025-11-19 00:01:34.659: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:01:34.659: [GENERAL] UpdatePreview called
+2025-11-19 00:01:34.660: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:01:34.673: [GENERAL] UpdatePreview called
+2025-11-19 00:01:34.673: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:01:34.673: [GENERAL] UpdatePreview called
+2025-11-19 00:01:34.674: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:01:34.690: [GENERAL] UpdatePreview called
+2025-11-19 00:01:34.690: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:01:34.690: [GENERAL] UpdatePreview called
+2025-11-19 00:01:34.690: [GENERAL] UpdatePreview skipped - _originalImage: True, _isProcessing: True
+2025-11-19 00:01:36.916: [GENERAL] ProcessImageAsync started
+2025-11-19 00:01:36.917: [GENERAL] ProcessImageAsync early return - _originalImage: True, _isProcessing: True
+2025-11-19 00:01:43.643: [GENERAL] ProcessImageAsync got result - Success: True
+2025-11-19 00:01:43.660: [GENERAL] ProcessImageAsync updated UI with processed image
+2025-11-19 00:01:43.661: [GENERAL] ProcessImageAsync finished
+2025-11-19 00:01:43.661: [GENERAL] UpdatePreview reset _previewUpdateInProgress to false
+2025-11-19 00:01:47.288: [GENERAL] ProcessImageAsync started
+2025-11-19 00:01:47.289: [GENERAL] ProcessImageAsync initialized UI
+2025-11-19 00:01:47.337: [GENERAL] ProcessImageAsync converted bitmap
+2025-11-19 00:01:47.338: [GENERAL] ProcessImageAsync using pipe mode
+2025-11-19 00:01:53.194: [GENERAL] ProcessImageAsync got result - Success: True
+2025-11-19 00:01:53.211: [GENERAL] ProcessImageAsync updated UI with processed image
+2025-11-19 00:01:53.212: [GENERAL] ProcessImageAsync finished

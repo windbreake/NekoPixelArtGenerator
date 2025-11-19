@@ -1,0 +1,11 @@
+2025-11-19 00:05:24.294: [STARTUP] MainWindow constructor starting
+2025-11-19 00:05:24.464: [STARTUP] InitializeComponent completed
+2025-11-19 00:05:24.760: [STARTUP] MainWindow constructor completed successfully
+2025-11-19 00:05:25.100: [GENERAL] UpdatePreview called
+2025-11-19 00:05:25.101: [GENERAL] UpdatePreview skipped - _originalImage: False, _isProcessing: False
+2025-11-19 00:05:25.101: [GENERAL] UpdatePreview called
+2025-11-19 00:05:25.101: [GENERAL] UpdatePreview skipped - _originalImage: False, _isProcessing: False
+2025-11-19 00:05:25.103: [GENERAL] UpdatePreview called
+2025-11-19 00:05:25.103: [GENERAL] UpdatePreview skipped - _originalImage: False, _isProcessing: False
+2025-11-19 00:05:25.103: [GENERAL] UpdatePreview called
+2025-11-19 00:05:25.104: [GENERAL] UpdatePreview skipped - _originalImage: False, _isProcessing: False

@@ -110,6 +110,13 @@
     <None Remove="PythonScripts\pixelate.py" />
     <None Remove="PythonScripts\palettes.py" />
     <None Remove="PythonScripts\requirements.txt" />
+    <None Remove="PythonScripts\core.py" />
+    <None Remove="PythonScripts\slic.py" />
+    <None Remove="PythonScripts\compair_point.py" />
+    <None Remove="PythonScripts\debug_black.py" />
+    <None Remove="PythonScripts\demo.py" />
+    <None Remove="PythonScripts\processors.py" />
+    <None Remove="PythonScripts\test_processor.py" />
     <None Remove="Resources\app-icon.png" />
     <None Remove="README.md" />
   </ItemGroup>
@@ -122,6 +129,27 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="PythonScripts\requirements.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PythonScripts\core.py">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PythonScripts\slic.py">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PythonScripts\compair_point.py">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PythonScripts\debug_black.py">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PythonScripts\demo.py">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PythonScripts\processors.py">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PythonScripts\test_processor.py">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>

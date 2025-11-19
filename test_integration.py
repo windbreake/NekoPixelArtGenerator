@@ -32,26 +32,6 @@ def test_complete_workflow():
         
         print("✓ 成功创建测试图像")
         
-        # 测试像素化
-        pixelated = processors.pixelate_average(test_image, 10)
-        assert pixelated.size == test_image.size, "像素化后尺寸不匹配"
-        print("✓ 像素化功能测试通过")
-        
-        # 测试颜色量化
-        quantized = processors.median_cut_quantize(pixelated, 16)
-        assert quantized.size == test_image.size, "量化后尺寸不匹配"
-        print("✓ 颜色量化功能测试通过")
-        
-        # 测试抖动
-        dithered = processors.apply_bayer_dither(quantized, 0.1)
-        assert dithered.size == test_image.size, "抖动后尺寸不匹配"
-        print("✓ 抖动功能测试通过")
-        
-        # 测试调色板映射
-        palette_mapped = processors.quantize_to_palette(test_image, 'gameboy')
-        assert palette_mapped.size == test_image.size, "调色板映射后尺寸不匹配"
-        print("✓ 调色板映射功能测试通过")
-        
         # 测试完整处理管道
         from io import BytesIO
         img_byte_arr = BytesIO()

@@ -8,14 +8,19 @@
         Title="像素画生成工具" Height="800" Width="1400" 
         WindowStartupLocation="CenterScreen"
         Background="#2D2D30">
+    <Window.InputBindings>
+        <KeyBinding Key="O" Modifiers="Control" Command="{Binding OpenCommand}"/>
+        <KeyBinding Key="S" Modifiers="Control" Command="{Binding SaveCommand}"/>
+        <KeyBinding Key="D" Modifiers="Control" Command="{Binding DownloadCommand}"/>
+    </Window.InputBindings>
     
     <Window.Resources>
         <!-- 控件样式 -->
         <Style x:Key="ParameterSliderStyle" TargetType="Slider">
-            <Setter Property="Minimum" Value="4"/>
+            <Setter Property="Minimum" Value="1"/>
             <Setter Property="Maximum" Value="64"/>
             <Setter Property="Value" Value="16"/>
-            <Setter Property="TickFrequency" Value="4"/>
+            <Setter Property="TickFrequency" Value="1"/>
             <Setter Property="IsSnapToTickEnabled" Value="True"/>
             <Setter Property="Background" Value="#3C3C3C"/>
             <Setter Property="BorderBrush" Value="#464647"/>
@@ -66,6 +71,52 @@
                 </Setter.Value>
             </Setter>
         </Style>
+        
+        <!-- 白色勾选框样式 -->
+        <Style x:Key="WhiteCheckBoxStyle" TargetType="CheckBox">
+            <Setter Property="Foreground" Value="#F1F1F1"/>
+            <Setter Property="Background" Value="#3C3C3C"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="CheckBox">
+                        <BulletDecorator Background="Transparent">
+                            <BulletDecorator.Bullet>
+                                <Border x:Name="Border" Width="16" Height="16" Background="#3C3C3C" BorderBrush="#464647" BorderThickness="1">
+                                    <Path x:Name="CheckMark" Stroke="White" StrokeThickness="2" Data="M 3,7 L 6,10 L 12,4" Visibility="Collapsed" />
+                                </Border>
+                            </BulletDecorator.Bullet>
+                            <ContentPresenter Margin="4,0,0,0" VerticalAlignment="Center" HorizontalAlignment="Left" RecognizesAccessKey="True"/>
+                        </BulletDecorator>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsChecked" Value="true">
+                                <Setter TargetName="CheckMark" Property="Visibility" Value="Visible"/>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="true">
+                                <Setter TargetName="Border" Property="Background" Value="#464647" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        
+        <!-- 显眼的调色板/算法标签样式 -->
+        <Style x:Key="ProminentLabelStyle" TargetType="TextBlock" BasedOn="{StaticResource ControlLabelStyle}">
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Foreground" Value="#00CCFF"/>
+        </Style>
+        
+        <!-- 显眼的调色板/算法下拉框样式 -->
+        <Style x:Key="ProminentComboBoxStyle" TargetType="ComboBox">
+            <Setter Property="Background" Value="#3C3C3C"/>
+            <Setter Property="Foreground" Value="#00CCFF"/>
+            <Setter Property="BorderBrush" Value="#007ACC"/>
+            <Setter Property="BorderThickness" Value="2"/>
+            <Setter Property="Margin" Value="0,0,0,10"/>
+            <Setter Property="FontSize" Value="13"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+        </Style>
     </Window.Resources>
     
     <Grid>
@@ -80,6 +131,8 @@
         <Menu Grid.Row="0" Background="#2D2D30" Foreground="#F1F1F1">
             <MenuItem Header="文件(F)">
                 <MenuItem Header="打开图片..." Click="OpenImage_Click" InputGestureText="Ctrl+O"/>
+                <MenuItem Header="另存为..." Click="DownloadImage_Click" InputGestureText="Ctrl+D"/>
+                <Separator/>
                 <MenuItem Header="保存结果..." Click="SaveResult_Click" InputGestureText="Ctrl+S"/>
                 <Separator/>
                 <MenuItem Header="批量处理..." Click="BatchProcess_Click"/>
@@ -101,6 +154,7 @@
             <MenuItem Header="工具(T)">
                 <MenuItem Header="选项..." Click="Options_Click"/>
                 <MenuItem Header="查看日志" Click="ViewLog_Click"/>
+                <MenuItem Header="切换处理模式" Click="ToggleProcessingMode_Click"/>
             </MenuItem>
             <MenuItem Header="帮助(H)">
                 <MenuItem Header="关于..." Click="About_Click"/>
@@ -119,6 +173,12 @@
                 <StackPanel Orientation="Horizontal">
                     <Image Source="Resources/Icons/save.png" Width="16" Height="16" Margin="0,0,5,0"/>
                     <TextBlock Text="保存"/>
+                </StackPanel>
+            </Button>
+            <Button Style="{StaticResource ToolButtonStyle}" Click="DownloadImage_Click">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="Resources/Icons/download.png" Width="16" Height="16" Margin="0,0,5,0"/>
+                    <TextBlock Text="另存为"/>
                 </StackPanel>
             </Button>
             <Separator/>
@@ -223,17 +283,15 @@
                             </Grid>
                             
                             <!-- 调色板选择 -->
-                            <TextBlock Text="调色板:" Style="{StaticResource ControlLabelStyle}"/>
+                            <TextBlock Text="调色板:" Style="{StaticResource ProminentLabelStyle}"/>
                             <ComboBox x:Name="PaletteComboBox" 
-                                      Background="#3C3C3C" Foreground="#F1F1F1"
-                                      BorderBrush="#464647" Margin="0,0,0,10"
+                                      Style="{StaticResource ProminentComboBoxStyle}"
                                       SelectionChanged="PaletteComboBox_SelectionChanged"/>
                             
                             <!-- 算法选择 -->
-                            <TextBlock Text="处理算法:" Style="{StaticResource ControlLabelStyle}"/>
+                            <TextBlock Text="处理算法:" Style="{StaticResource ProminentLabelStyle}"/>
                             <ComboBox x:Name="AlgorithmComboBox" 
-                                      Background="#3C3C3C" Foreground="#F1F1F1"
-                                      BorderBrush="#464647" Margin="0,0,0,10"
+                                      Style="{StaticResource ProminentComboBoxStyle}"
                                       SelectionChanged="AlgorithmComboBox_SelectionChanged"/>
                         </StackPanel>
                     </GroupBox>
@@ -243,7 +301,7 @@
                         <StackPanel Margin="0,10,0,0">
                             <!-- 抖动效果 -->
                             <CheckBox x:Name="DitheringCheckBox" Content="启用抖动效果"
-                                      Foreground="#F1F1F1" Background="#3C3C3C"
+                                      Style="{StaticResource WhiteCheckBoxStyle}"
                                       Margin="0,0,0,10" Checked="DitheringCheckBox_Checked"
                                       Unchecked="DitheringCheckBox_Unchecked"/>
                             
@@ -306,6 +364,61 @@
                                            Text="1.0" Foreground="#F1F1F1" 
                                            Margin="5,0,0,0" VerticalAlignment="Center"/>
                             </Grid>
+                            
+                            <!-- 网格线 -->
+                            <CheckBox x:Name="ShowGridCheckBox" Content="显示网格线"
+                                      Style="{StaticResource WhiteCheckBoxStyle}"
+                                      Margin="0,0,0,10" Checked="ShowGrid_Checked"
+                                      Unchecked="HideGrid_Unchecked"/>
+                            
+                            <!-- 边缘描边 -->
+                            <CheckBox x:Name="EdgeOutlineCheckBox" Content="边缘黑色像素描边"
+                                      Style="{StaticResource WhiteCheckBoxStyle}"
+                                      Margin="0,0,0,10" Checked="EdgeOutline_Checked"
+                                      Unchecked="EdgeOutline_Unchecked"/>
+                            
+                            <!-- 边缘描边厚度 -->
+                            <TextBlock Text="描边厚度:" Style="{StaticResource ControlLabelStyle}"/>
+                            <Grid Margin="0,0,0,10">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="50"/>
+                                </Grid.ColumnDefinitions>
+                                <Slider x:Name="EdgeOutlineThicknessSlider" Grid.Column="0" 
+                                        Minimum="1" Maximum="5" Value="3" TickFrequency="1" IsSnapToTickEnabled="True"
+                                        ValueChanged="EdgeOutlineThicknessSlider_ValueChanged"/>
+                                <TextBlock x:Name="EdgeOutlineThicknessValue" Grid.Column="1" 
+                                           Text="3" Foreground="#F1F1F1" 
+                                           Margin="5,0,0,0" VerticalAlignment="Center"/>
+                            </Grid>
+                            
+                            <!-- 边缘描边颜色 -->
+                            <TextBlock Text="描边颜色 (R, G, B):" Style="{StaticResource ControlLabelStyle}"/>
+                            <Grid Margin="0,0,0,10">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Slider x:Name="EdgeOutlineColorRSlider" Grid.Column="0" 
+                                        Minimum="0" Maximum="255" Value="30" 
+                                        Margin="0,0,5,0" ValueChanged="EdgeOutlineColorRSlider_ValueChanged"/>
+                                <Slider x:Name="EdgeOutlineColorGSlider" Grid.Column="1" 
+                                        Minimum="0" Maximum="255" Value="30" 
+                                        Margin="0,0,5,0" ValueChanged="EdgeOutlineColorGSlider_ValueChanged"/>
+                                <Slider x:Name="EdgeOutlineColorBSlider" Grid.Column="2" 
+                                        Minimum="0" Maximum="255" Value="30" 
+                                        ValueChanged="EdgeOutlineColorBSlider_ValueChanged"/>
+                            </Grid>
+                        </StackPanel>
+                    </GroupBox>
+                    
+                    <!-- 处理模式 -->
+                    <GroupBox Header="处理模式" Style="{StaticResource GroupBoxStyle}">
+                        <StackPanel Margin="0,10,0,0">
+                            <TextBlock x:Name="ProcessingModeText" Text="当前模式: 管道模式" 
+                                       Style="{StaticResource ControlLabelStyle}" 
+                                       Foreground="#007ACC" FontWeight="Bold"/>
                         </StackPanel>
                     </GroupBox>
                     

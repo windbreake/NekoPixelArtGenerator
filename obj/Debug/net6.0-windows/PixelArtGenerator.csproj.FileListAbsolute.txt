@@ -1,10 +1,17 @@
+C:\Users\win11\Desktop\AgentPix\DMEO\bin\Debug\net6.0-windows\PixelArtGenerator.exe
+C:\Users\win11\Desktop\AgentPix\DMEO\bin\Debug\net6.0-windows\PixelArtGenerator.dll
+C:\Users\win11\Desktop\AgentPix\DMEO\bin\Debug\net6.0-windows\PythonScripts\core.py
+C:\Users\win11\Desktop\AgentPix\DMEO\bin\Debug\net6.0-windows\PythonScripts\slic.py
+C:\Users\win11\Desktop\AgentPix\DMEO\bin\Debug\net6.0-windows\PythonScripts\compair_point.py
+C:\Users\win11\Desktop\AgentPix\DMEO\bin\Debug\net6.0-windows\PythonScripts\debug_black.py
+C:\Users\win11\Desktop\AgentPix\DMEO\bin\Debug\net6.0-windows\PythonScripts\demo.py
+C:\Users\win11\Desktop\AgentPix\DMEO\bin\Debug\net6.0-windows\PythonScripts\processors.py
+C:\Users\win11\Desktop\AgentPix\DMEO\bin\Debug\net6.0-windows\PythonScripts\test_processor.py
 C:\Users\win11\Desktop\AgentPix\DMEO\bin\Debug\net6.0-windows\PythonScripts\pixelate.py
 C:\Users\win11\Desktop\AgentPix\DMEO\bin\Debug\net6.0-windows\PythonScripts\palettes.py
 C:\Users\win11\Desktop\AgentPix\DMEO\bin\Debug\net6.0-windows\PythonScripts\requirements.txt
-C:\Users\win11\Desktop\AgentPix\DMEO\bin\Debug\net6.0-windows\PixelArtGenerator.exe
 C:\Users\win11\Desktop\AgentPix\DMEO\bin\Debug\net6.0-windows\PixelArtGenerator.deps.json
 C:\Users\win11\Desktop\AgentPix\DMEO\bin\Debug\net6.0-windows\PixelArtGenerator.runtimeconfig.json
-C:\Users\win11\Desktop\AgentPix\DMEO\bin\Debug\net6.0-windows\PixelArtGenerator.dll
 C:\Users\win11\Desktop\AgentPix\DMEO\bin\Debug\net6.0-windows\PixelArtGenerator.pdb
 C:\Users\win11\Desktop\AgentPix\DMEO\obj\Debug\net6.0-windows\Controls\AboutWindow.baml
 C:\Users\win11\Desktop\AgentPix\DMEO\obj\Debug\net6.0-windows\Controls\OptionsWindow.baml
@@ -28,3 +35,5 @@ C:\Users\win11\Desktop\AgentPix\DMEO\obj\Debug\net6.0-windows\refint\PixelArtGen
 C:\Users\win11\Desktop\AgentPix\DMEO\obj\Debug\net6.0-windows\PixelArtGenerator.pdb
 C:\Users\win11\Desktop\AgentPix\DMEO\obj\Debug\net6.0-windows\PixelArtGenerator.genruntimeconfig.cache
 C:\Users\win11\Desktop\AgentPix\DMEO\obj\Debug\net6.0-windows\ref\PixelArtGenerator.dll
+C:\Users\win11\Desktop\AgentPix\DMEO\obj\Debug\net6.0-windows\Controls\InputDialog.baml
+C:\Users\win11\Desktop\AgentPix\DMEO\obj\Debug\net6.0-windows\Controls\InputDialog.g.cs

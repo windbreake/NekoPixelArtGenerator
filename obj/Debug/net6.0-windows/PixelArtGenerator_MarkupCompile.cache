@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\win11\Desktop\AgentPix\DMEO\App.xaml
-41755893424
+5-1582212113
 
-12-632929149
+14-2028736066
 203-1076852274
-Controls\AboutWindow.xaml;Controls\BatchProcessingWindow.xaml;Controls\OptionsWindow.xaml;MainWindow.xaml;
+Controls\AboutWindow.xaml;Controls\BatchProcessingWindow.xaml;Controls\InputDialog.xaml;Controls\OptionsWindow.xaml;MainWindow.xaml;
 
-True
+False
 

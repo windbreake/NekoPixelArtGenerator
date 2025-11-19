@@ -15,6 +15,12 @@ namespace PixelArtGenerator.Models
         private double _saturation = 1.0;
         private double _ditherStrength = 0.1;
         private bool _enableCartoonEffect = false;
+        private bool _showGrid = false;
+        private bool _enableEdgeOutline = false;
+        private int _edgeOutlineThickness = 3;
+        private int _edgeOutlineColorR = 30;
+        private int _edgeOutlineColorG = 30;
+        private int _edgeOutlineColorB = 30;
 
         public event PropertyChangedEventHandler PropertyChanged;
 
@@ -161,6 +167,84 @@ namespace PixelArtGenerator.Models
             }
         }
 
+        public bool ShowGrid
+        {
+            get => _showGrid;
+            set
+            {
+                if (_showGrid != value)
+                {
+                    _showGrid = value;
+                    OnPropertyChanged(nameof(ShowGrid));
+                }
+            }
+        }
+
+        public bool EnableEdgeOutline
+        {
+            get => _enableEdgeOutline;
+            set
+            {
+                if (_enableEdgeOutline != value)
+                {
+                    _enableEdgeOutline = value;
+                    OnPropertyChanged(nameof(EnableEdgeOutline));
+                }
+            }
+        }
+
+        public int EdgeOutlineThickness
+        {
+            get => _edgeOutlineThickness;
+            set
+            {
+                if (_edgeOutlineThickness != value)
+                {
+                    _edgeOutlineThickness = value;
+                    OnPropertyChanged(nameof(EdgeOutlineThickness));
+                }
+            }
+        }
+
+        public int EdgeOutlineColorR
+        {
+            get => _edgeOutlineColorR;
+            set
+            {
+                if (_edgeOutlineColorR != value)
+                {
+                    _edgeOutlineColorR = value;
+                    OnPropertyChanged(nameof(EdgeOutlineColorR));
+                }
+            }
+        }
+
+        public int EdgeOutlineColorG
+        {
+            get => _edgeOutlineColorG;
+            set
+            {
+                if (_edgeOutlineColorG != value)
+                {
+                    _edgeOutlineColorG = value;
+                    OnPropertyChanged(nameof(EdgeOutlineColorG));
+                }
+            }
+        }
+
+        public int EdgeOutlineColorB
+        {
+            get => _edgeOutlineColorB;
+            set
+            {
+                if (_edgeOutlineColorB != value)
+                {
+                    _edgeOutlineColorB = value;
+                    OnPropertyChanged(nameof(EdgeOutlineColorB));
+                }
+            }
+        }
+
         public PixelArtOptions Clone()
         {
             return new PixelArtOptions
@@ -175,7 +259,13 @@ namespace PixelArtGenerator.Models
                 Brightness = this.Brightness,
                 Saturation = this.Saturation,
                 DitherStrength = this.DitherStrength,
-                EnableCartoonEffect = this.EnableCartoonEffect
+                EnableCartoonEffect = this.EnableCartoonEffect,
+                ShowGrid = this.ShowGrid,
+                EnableEdgeOutline = this.EnableEdgeOutline,
+                EdgeOutlineThickness = this.EdgeOutlineThickness,
+                EdgeOutlineColorR = this.EdgeOutlineColorR,
+                EdgeOutlineColorG = this.EdgeOutlineColorG,
+                EdgeOutlineColorB = this.EdgeOutlineColorB
             };
         }
 
