@@ -1,6 +1,6 @@
-# 像素画生成工具 (Pixel Art Generator)
-一个.NET桌面应用程序，用于将普通图片转换为精美的像素画效果。该工具采用现代WPF界面设计，结合Python后端处理引擎，提供强大的像素画生成功能。
+# Neko Pixel Art Generator ——本地部署的像素画生成工具
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=300&size=24&pause=1000&color=F750EE&vCenter=true&random=true&width=435&lines=awa~)](https://git.io/typing-svg)
+一个.NET桌面应用程序，用于将普通图片转换为精美的像素画效果。该工具采用现代WPF界面设计，结合Python后端处理引擎，提供强大的像素画生成功能。
 ## 特点
 
 - 采用Python的高性能处理引擎，基于NumPy和Numba实现
